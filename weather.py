@@ -58,8 +58,8 @@ def get_weather_news(city, api_key):
 # 날씨 정보 및 뉴스 업데이트
 def update_weather():
     city = city_entry.get()
-    weather_api_key = "4e9831b0b2a8276ed332727bee842d2a"  # OpenWeatherMap API 키 입력
-    news_api_key = "2c38461e763743809b5c6ba3b31476eb"  # NewsAPI API 키 입력
+    weather_api_key = "your api"  # OpenWeatherMap API 키 입력
+    news_api_key = "yout api"  # NewsAPI API 키 입력
 
     # 날씨 데이터 가져오기
     temp, weather_description = get_weather_data(city, weather_api_key)
